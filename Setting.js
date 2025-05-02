@@ -1,6 +1,6 @@
 const fs = require('fs-extra')
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '94768655794' ;
+global.owner = process.env.OWNER_NUMBER || '2348039607375' ;
 global.mongodb = process.env.MONGODB_URI || "" ; 
 global.port=5000  ;
 global.audio = '' ; 
@@ -12,8 +12,8 @@ global.github = 'https://github.com/Astropeda/Asta-Md' ;
 global.location = 'Nigeria Lagos' ;
 global.timezone  = process.env.TIME_ZONE || 'Africa/Lagos'
 global.gurl = '' ; 
-global.sudo =  process.env.SUDO || "94768655794" ;
-global.devs = "94768655794"; //Dont change it
+global.sudo =  process.env.SUDO || "2348039607375" ;
+global.devs = "2348039607375"; //Dont change it
 global.mztit = process.env.MZTIT ||"MONA-MD", 
 global.Gname = process.env.GNAME ||"MONA-MD-sᴜᴘᴘᴏʀᴛ",
 global.zyt = process.env.ZYT || '1',
