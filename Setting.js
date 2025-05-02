@@ -1,6 +1,6 @@
 const fs = require('fs-extra')
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2348039607375' ;
+global.owner = process.env.OWNER_NUMBER || '94768655794' ;
 global.mongodb = process.env.MONGODB_URI || "" ; 
 global.port=5000  ;
 global.audio = '' ; 
@@ -12,21 +12,21 @@ global.github = 'https://github.com/Astropeda/Asta-Md' ;
 global.location = 'Nigeria Lagos' ;
 global.timezone  = process.env.TIME_ZONE || 'Africa/Lagos'
 global.gurl = '' ; 
-global.sudo =  process.env.SUDO || "2348039607375" ;
-global.devs = "2348039607375"; //Dont change it
-global.mztit = process.env.MZTIT ||"Asta-Md", 
-global.Gname = process.env.GNAME ||"Asta-Md-sᴜᴘᴘᴏʀᴛ",
+global.sudo =  process.env.SUDO || "94768655794" ;
+global.devs = "94768655794"; //Dont change it
+global.mztit = process.env.MZTIT ||"MONA-MD", 
+global.Gname = process.env.GNAME ||"MONA-MD-sᴜᴘᴘᴏʀᴛ",
 global.zyt = process.env.ZYT || '1',
 global.waUrl = process.env.WAURL ||"",
 global.website = '' ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || '' ;
 module.exports = {
   sessionName: process.env.SESSION_ID || '',
-  botname: process.env.BOT_NAME || 'Asta-Md',
-  ownername:  process.env.OWNER_NAME || `Astro`,
-  author:  process.env.PACK_AUTHER || 'Astro', 
+  botname: process.env.BOT_NAME || 'Mona-Md',
+  ownername:  process.env.OWNER_NAME || `AASHIF`,
+  author:  process.env.PACK_AUTHER || 'STICKERS', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname:  process.env.PACK_NAME || "Asta-Md" , 
+  packname:  process.env.PACK_NAME || "Mona-Md" , 
   autoreaction: process.env.AUTO_REACTION || 'true',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
   alwaysonline: process.env.ALWAYS_ONLINE || 'true', 
@@ -37,7 +37,7 @@ module.exports = {
   disablepm: process.env.DISABLE_PM || "false",
   MsgsInLog:process.env.MSGS_IN_LOG ||'false',
   pmMsgsInLog:process.env.PM_MSGS_IN_LOGS ||'false',
-  levelupmessage: process.env.LEVEL_UP_MESSAGE || 'true', 
+  levelupmessage: process.env.LEVEL_UP_MESSAGE || 'false', 
   antilink: process.env.ANTILINK_VALUES || 'chat.whatsapp.com',
   antilinkaction: process.env.BRANCH || 'remove',
   BRANCH: process.env.BRANCH || 'Main',
